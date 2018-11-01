@@ -1,6 +1,6 @@
 {
     "name": "email/send",
-    "description": "Send Email & Save to database",
+    "description": "Send Email & Save information into database",
     "type": "library",
     "license": "MIT",
     "authors": [
