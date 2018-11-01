@@ -6,3 +6,15 @@
 
 
 ## Send Email & Save to database
+
+## composer require email/send
+
+### php artisan vendor:publish
+
+### then press 0 and enter
+
+### Main Url is
+
+### url: es/input
+
+#### its onlu for test package
