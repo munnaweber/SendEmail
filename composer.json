@@ -1,0 +1,19 @@
+{
+    "name": "email/send",
+    "description": "Send Email & Save to database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Munna Ahmed",
+            "email": "munnaweber@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Email\\Send\\": "src/"
+        }
+    },
+}
