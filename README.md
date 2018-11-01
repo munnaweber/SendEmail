@@ -38,4 +38,27 @@ php artisan migrate
 ```php
 url: es/input
 ```
+
+
+## Email Setup via env with gmail account
+
+```php
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=yourgmail@gmail.com
+MAIL_PASSWORD=yourgmailpassword
+MAIL_ENCRYPTION=tls
+```
+After changing .env file then you should to go config folder and open  'mail.php' file and change following options from 'mail.php' file
+
+```php
+'host' => env('MAIL_HOST', 'smtp.gmail.com'),
+'port' => env('MAIL_PORT', 587),
+'from' => [
+    'address' => env('MAIL_FROM_ADDRESS', 'reply email address for client'),
+    'name' => env('MAIL_FROM_NAME', 'Your Company Title'),
+],
+```
+
 Its just a testing send email package
