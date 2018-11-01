@@ -5,16 +5,31 @@
 [![Forks](https://img.shields.io/github/forks/MunnaAhmed/SendEmail.svg?style=flat-square)](https://github.com/MunnaAhmed/SendEmail/network)
 
 
-## Send Email & Save to database
+Send Email & Save to database
 
-## composer require email/send
 
-### php artisan vendor:publish
+## Installing Email\Send
 
-### then press 0 and enter
+Next, run the Composer command to install the latest stable version:
 
-### Main Url is
+```bash
+composer require email/send
+```
 
-### url: es/input
 
-#### its onlu for test package
+After installing, you need to require Composer's autoloader:
+
+```php
+php artisan vendor:publish
+```
+
+And then 
+
+hit  0  and enter 
+
+## Main Url is
+
+```php
+url: es/input
+```
+Its just a testing send email package
