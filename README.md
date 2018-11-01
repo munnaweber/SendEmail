@@ -27,6 +27,12 @@ And then
 
 hit  0  and enter 
 
+After complete publishing in vendor then migrating your database
+
+```php
+php artisan migrate
+```
+
 ## Main Url is
 
 ```php
