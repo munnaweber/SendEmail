@@ -16,4 +16,11 @@
             "Email\\Send\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Email\\Send\\SendMailServiceProvider"
+            ]
+        }
+    }
 }
